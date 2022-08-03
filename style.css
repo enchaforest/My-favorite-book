@@ -1,0 +1,64 @@
+body {
+    background-color: #222831;
+    color: #EEEEEE;
+
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position:fixed;
+    top:0;
+    left:0;
+}
+
+.container{
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+@media (max-width: 750px){
+    .container{max-width: none;}
+}
+.container p {overflow-wrap: break-word;}
+
+.info {
+    display: flex;
+    margin-bottom: 20px;
+}
+.info p {
+    color: #63A9BB;
+    margin: 0;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+.info-text {
+    margin-left: 40px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.avatar {
+    width: 340px;
+    height: 440px;
+    border-radius: 20px;
+}
+.series {
+    width: 775px;
+    height: 300px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.table {width: 100%; color: #EEEEEE;}
+.table td {text-align: center;
+    border-radius: 20px;}
+
+.card h2 {margin-bottom: 10px;}
+.bg-yellow p {color: #FCE38A;}
+.bg-purple p {color: #63A9BB;}
+
+a { color: #FCE38A;;
+    text-decoration: none;}
+a:hover {text-decoration: underline;}
+a:active {color: #63A9BB;}
+a:visited {color: grey;}
+
